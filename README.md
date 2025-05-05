@@ -3,7 +3,7 @@ Adaptive Multi-Technique Redirected Walking for Constrained VR on Meta Quest 3
 
 
 
-An interactive Godot 4.3 demo of adaptive redirected walking on Meta Quest 3. Users calibrate perceptual gains, then explore a 3 m×3 m physical play area with:
+An interactive Godot 4.3 demo of adaptive redirected walking on Meta Quest 3. Users calibrate perceptual gains, then explore a physical play area with:
 
 - **Discrete rotations** via controller‑trigger taps  
 - **Continuous curvature** redirecting your path  
