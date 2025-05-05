@@ -4,7 +4,7 @@ extends Node3D
 const RESET_THRESHOLD := 2.9
 const RESET_SPEED     := 1.0
 
-@onready var xr_origin : Node3D        = get_node("../XROrigin3D")
+@onready var xr_origin : Node3D        = get_node("../XRBody/XROrigin3D")
 @onready var ring_node : MeshInstance3D = get_node("../BoundaryRing")  
 var ring_mat       : StandardMaterial3D
 var normal_color   : Color

@@ -1,7 +1,7 @@
 
 extends Node3D
 
-@onready var xr_origin: Node3D = get_node("../XROrigin3D")
+@onready var xr_origin: Node3D = get_node("../XRBody/XROrigin3D")
 var curvature_gain: float = 1.0
 var curvature_rate: float  = 0.05
 

@@ -3,9 +3,9 @@ extends Node
 
 @onready var curv      = $"../CurvatureController"
 @onready var rst       = $"../ResetController"
-@onready var xr_origin = $"../XROrigin3D"
+@onready var xr_origin = $"../XRBody/XROrigin3D"
 
-const BOUNDARY_DISTANCE: float = 2.0
+const BOUNDARY_DISTANCE: float = 2.9
 
 func _process(_delta: float) -> void:
 	var dist = xr_origin.global_transform.origin.length()
